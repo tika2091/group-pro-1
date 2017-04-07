@@ -1,0 +1,378 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+}
+
+
+.main-container {
+	margin: auto;
+	width: 100%;
+	height: 740px;
+	background-color:green;
+
+
+	
+	max-width: 960px;
+	background-color: #fafafa ;
+	background-repeat: no-repeat;
+	/*border-style: dashed;
+	border-width: 3px;
+	border-color: black;*/
+	padding-bottom: 200px;
+	display : block;
+	
+}
+
+#master-container {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 0;
+	border: none;
+	width:450px;
+	height:100%;
+	background-image:url("../images/shelf.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	display: inline-block;
+	}
+	#books{
+		width:400px;
+		border:none;
+	}
+
+
+	#container {
+	margin-top:70px;
+	margin-left:70px;
+	border: none;
+	}
+
+
+
+
+	#container-2{
+	margin-top:5px;
+	margin-left:70px;
+	border: none;
+	}
+
+
+
+
+
+
+	img{
+		width:65px;
+		height:90px;
+		margin-left:20px;
+		}
+
+
+
+
+#start-button {
+	margin-top: 5px;
+	margin-left: 50px;
+	background-color: black;
+	width:327px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+
+
+.btn a{
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	padding:15px 130px;
+	text-decoration: none;
+}
+
+
+
+#welcome {
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+	/*border:solid red;*/
+	text-align:center;
+	}
+
+
+#start-button:hover {
+	background-color:#ecef97;
+	opacity:80%;
+}
+
+img:hover{
+
+}
+
+
+
+
+
+h1 {
+	font-size: 70px;
+	font-weight: bold;
+	}
+
+
+
+h3 {
+	font-size: 20px;
+	color: grey;
+	}
+
+
+
+h5 {
+	margin:0 auto;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+
+/*letter a*/
+.letter {
+	color: red;
+	border-bottom: solid;
+	border-color: black;
+	}
+
+
+
+/* for header*/
+
+#flipbook {
+	margin-top: -00px;
+	overflow: hidden;
+	/*width: 800px;
+	height: 600px;*/ 	
+	text-align: center;
+	background-color: black;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: white;
+	color: white;
+}
+
+
+p {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left: 5px;
+	text-align: left;
+}
+
+.page {
+width: 300px;
+height: 500px;
+background-color: #e6eeff;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+color: black;
+}
+
+#page-2 {
+	background-color: yellow;
+}
+
+#flipbook iframe {
+	margin: 0 auto;
+	padding: 100px;
+}
+
+
+
+footer p{
+	text-align: center;
+	color:white;
+	padding-top:20px;
+	}
+
+	footer{
+		clear:both;
+		position:relative;
+		bottom:0;
+		background-color:#ccc;
+		height:60px;
+		margin-right:0;
+		margin-left:0;
+		margin-bottom:0;
+	}
+
+/* CSSS FOR INDEX-2.HTML,*/
+
+/*#main-page {
+	background-image: url("background3.jpg");
+	height: 900px;
+	width: 100%;
+}
+
+#main-header {
+	background-color: ;
+	height: 200px;
+	width: 100%;
+}
+
+
+#main-box {
+	background-color:;
+	width: 500px;
+	height: 500px;
+	color: black;
+
+}
+
+#recieve-text {
+	max-width: 400px;
+	height: 400px;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}*/
+
+/*
+#text-area , #text-for-image {
+	width: 400px;
+	height: 34px;
+	background-color: grey;
+	margin-left: 5px;
+
+}
+
+
+
+#text-for-image {
+	background-color: white;
+	color: black;
+}
+
+.panel.panel-default {
+	width: 950px;
+}
+*/
+/*MEDIA QUEIRY 634px*/
+
+@media screen and (max-width: 768px) {
+	
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+}
+
+
+.main-container {
+		margin:0 auto;
+		padding:0;
+	width: 100%;
+height: auto;
+	max-width:768px;
+	border:solid #fafafa; 
+	background-color: green#fafafa ;
+
+	}
+	#welcome {
+width:100%;
+margin: auto;
+border: solid #fafafa;
+text-align:center;
+	}
+
+
+#master-container {
+	
+	margin: 300px auto;
+	border: solid #fafafa;
+	width:450px;
+	height:100%;
+	background-image:url("../images/shelf.png");
+	background-size:100%;
+	display: block;
+	/*display: inline-block;
+	}
+	
+
+
+
+	#books{
+		width:400px;
+		border:solid black;
+	}
+
+
+	#container {
+	margin-top:70px;
+	margin-left:70px;
+	border: solid red;
+	}
+
+
+
+
+	#container-2{
+	margin-top:5px;
+	margin-left:70px;
+	border: solid red;
+	}
+
+
+
+
+
+
+	img{
+		width:65px;
+		height:80px;
+		margin-left:20px;
+		}
+
+
+
+
+#start-button {
+	margin-top: 5px;
+	margin-left: 50px;
+	background-color: black;
+	width:327px;
+	height: 60px;
+	border-radius: 5px;
+
+
+	#start-button a{
+		color:white;
+	}
+
+}
+
+
+.btn a{
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+}
+
+
+
+
+
+	
+}
+
+

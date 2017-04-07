@@ -1,0 +1,398 @@
+/* index.html CSS--------------------------------------------------------------------------*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	max-width: 100%;	
+	background-color: #eee;
+}
+
+
+
+
+
+/*BOOKLET.HTML CSS*/
+*{
+
+}
+
+
+
+#background-page{
+	max-width:960;
+	width:100%;
+	height:90%;
+	background-color:#62bec1;
+	/*background-image: url('assets/images/bg.jpg');*/
+}
+
+
+#flipbook {
+	margin: auto;
+	margin-top:40px;
+	width: 900px;
+	height: 600px;
+	background-color: #fce3e3;
+	border-style: solid;
+	/*border-color: #141f1f;*/
+	border-width: 4px;
+	border-radius: 5px; 
+}
+
+.intro{
+	background-color:green;
+
+
+}
+
+.page {
+	margin-top: 2px;
+	border-width: 2.3px;
+	border-style: solid;
+	border-color: #b3b3cc;
+	max-width: 900px;
+	max-height: 600px;
+
+}
+
+
+
+#go-back {
+	margin-top:30px;
+	margin-left:20%;
+	padding: 10px 60px;
+	border-radius: 10px;
+	background-color:#ccc;
+	color:white;
+	font-size:150%;
+	font-weight: 800;
+}
+a:hover #go-back{
+	color:#c5fcba;
+}
+
+
+  footer{
+  	text-align:center;
+  	background-color:#ddd;
+  	height:80px;
+  	padding-top: 30px;
+  	color:white;
+  	font-weight: 800;
+  }
+  	
+
+
+
+
+
+/*----------------fleepbook in small device-----------*/
+
+
+@media screen and (max-width: 768px) {
+	
+
+/* index.html CSS--------------------------------------------------------------------------*/
+
+
+
+/*--------boooklet media query----------*/
+
+
+
+/*
+/*#main-container {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	max-width: 960px;
+	background-color: #fafafa ;
+	background-repeat: no-repeat;
+	/*border-style: dashed;
+	border-width: 3px;
+	border-color: black;
+	padding-bottom: 200px;
+	
+}
+
+#master-container {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 0;
+	background-color:;
+	
+	width: 60%;
+	display: inline-block;
+
+
+}
+
+#welcome {
+	float: right;
+	margin-right: 150px;
+	margin-top: 100px;
+
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	
+}
+
+h3 {
+	font-size: 20px;
+}
+h5 {
+	margin-left: 85px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.letter {
+	color: red;
+	border-bottom: solid;
+	border-color: black;
+}
+
+#your{
+	color: grey;
+	margin-left: 60px;
+}
+
+
+#books {
+	margin-top: -298px;
+	margin-left: -85px;
+}
+#shelf-image {
+	margin-top: 50px;
+}
+
+#container {
+	margin-bottom: 20px;
+	margin-left: 140px;
+
+}
+
+#container-2 {
+	margin-left: 140px;
+}
+img {
+	margin-right: 7px;
+}
+#start-button {
+	background-color: black;
+	color: white;
+	width: 405px;
+	height: 40px;
+	margin-left: 95px;
+	margin-top: 40px;
+}
+#start-button:hover {
+	width: 407px;
+	height: 42px;
+}
+
+ #javascript:hover {
+	width: 100px;
+	height: 100px;
+}
+
+
+ #james:hover {
+	width: 100px;
+	height: 100px;
+}
+
+
+ #hamlet:hover {
+	width: 100px;
+	height: 100px;
+}
+
+
+ #holes:hover {
+	width: 100px;
+	height: 100px;
+}
+
+ #clifford:hover {
+	width: 100px;
+	height: 100px;
+}
+
+ #journal:hover {
+	width: 100px;
+	height: 100px;
+}
+
+*/*/
+/*CSS FOR HEADER-------------------------------------------------------------------*/
+#navigator {
+	background-color: #141f1f;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #141f1f;
+}
+
+.breadcrumb {
+	background-color: #141f1f;
+	float: right;
+	padding-bottom: 25px;
+	
+}
+/* CSS FOR input.html --------------------------------------------------------------*/
+
+#main-page {
+	margin-top: 4%;
+	width: 100%;
+	background-color: #141f1f;
+}
+
+#input-box {
+	margin: auto;
+	margin-top: 5%;
+	width: 100%;
+	max-width: 800px;	
+	height: 548px;
+	border-width: 2.4px;
+	border-style: dashed;
+	border-color: #141f1f;
+	background-color: #f0f5f5;
+}
+
+.form-group {
+	margin: auto;
+	width: 50%;
+}
+
+.back-btn {
+	width: 400px;
+	background-color: black;
+	color: white;
+	
+}
+
+/*BUTTONS*/
+#add-button {
+	width:400px;
+	background-color: black;
+
+}
+
+#images-button {
+	margin-left: 40%;
+	background-color: black;
+	color: white;
+}
+
+/*FOOTER*/
+#main-footer {
+	background-color: #141f1f;
+	color: white;
+	margin-top: 40px;
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+
+
+/*----------------fleepbook in small device-----------*/
+
+
+@media screen and (max-width: 768px) {
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	max-width: 100%;	
+	background-color: #eee;
+}
+
+
+
+#background-page{
+	max-width:768px;
+	padding-bottom:auto;
+	width:100%;
+	height:auto;
+	background-color:red/*#62bec1*/;
+	/*background-image: url('assets/images/bg.jpg');*/
+}
+
+
+#flipbook {
+	margin:30px auto;
+	max-width:768;
+	width:100%;
+	height:100%px;
+	background-color: #fce3e3;
+	border-style: solid;
+	/*border-color: #141f1f;*/
+	border-width: 4px;
+	border-radius: 5px; 
+}
+
+
+.page {
+	margin-top: 2px;
+	border-width: 2.3px;
+	border-style: solid;
+	border-color: #b3b3cc;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+#go-back {
+	margin:20 auto;
+	padding: 10px 60px;
+	border-radius: 10px;
+	background-color:#ccc;
+	color:white;
+	font-size:150%;
+	font-weight: 800;
+}
+
+a:hover #go-back{
+	color:#c5fcba;
+}
+
+
+  footer{
+  	clear:both;
+  	text-align:center;
+  	background-color:#ddd;
+  	margin-top:80%;
+  	height:80px;
+  	padding-top: 30px;
+  	color:white;
+  	font-weight: 800;
+  }
+  	
+}
+
+
